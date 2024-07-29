@@ -6,7 +6,7 @@ let rl = readline.createInterface(
 )
 
 rl.question(`escriba el texto que quiere convertir en subcadena`, (textocadena)=>{
-    const subcadena= textocadena.substring(0 ,4);
+    const subcadena= textocadena.substring(0 ,10);
     console.log(`su texto convertido ha seb cadena es : ${subcadena}`);
     process.exit() 
 })
