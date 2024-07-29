@@ -5,4 +5,8 @@ let rl = readline.createInterface(
     process.stdout,
 )
 
-rl.question(`escriba el texto que quiere convertir en mayuscula`)
+rl.question(`escriba el texto que quiere convertir en mayuscula`, (textoMayuscula)=>{
+    const mayuscula= textoMayuscula.toUpperCase();
+    console.log(`su texto convertido ha mayuscula es : ${mayuscula}`);
+    process.exit() 
+})
