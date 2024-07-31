@@ -12,7 +12,7 @@ rl.question(`Escribe la palabra que quieres verificar si es palindromo:`, (palab
     const palabra2 = palabra1.reverse();
     const palabraPalindromo = palabra2.join("")
 
-    if(palabra == palabraPolindromo){
+    if(palabra == palabraPalindromo){
         console.log("su palabra si es palindroma")
 
     }else{
