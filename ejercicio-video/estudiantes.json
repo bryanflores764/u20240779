@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "Nombre": "Bryan",
+    "Apellido": "Flores",
+    "Carrera": "ingineria de sotfware",
+    "Edad": 30
+  },
+  {
+    "id": 3,
+    "Nombre": "Emanuel",
+    "Apellido": "Perdomo",
+    "Carrera": "ingineria de sotfware",
+    "Edad": 19
+  },
+  {
+    "id": 4,
+    "Nombre": "Rodrigo",
+    "Apellido": "Aviles",
+    "Carrera": "ingineria de sotfware",
+    "Edad": 17
+  }
+]
